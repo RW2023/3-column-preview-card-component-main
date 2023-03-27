@@ -3,6 +3,8 @@
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
 }
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 /* CSS Reset */
 
 body {
