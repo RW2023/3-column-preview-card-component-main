@@ -3,6 +3,7 @@
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3b84ced-3c1d-4056-a8cf-4efecc85646f/deploy-status)](https://app.netlify.com/sites/rw20233columnpreview/deploys)
 
 Thanks for checking out this front-end coding challenge.
 
