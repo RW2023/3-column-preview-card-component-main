@@ -4,87 +4,190 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Big Shoulders Display", cursive;
-}
+@media screen and (max-width: 375px) {
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+  }
 
-.text p{
-    /*hehe*/
-    font-family: 'Lexend Deca', sans-serif;
+  .text p {
+    font-family: "Lexend Deca", sans-serif;
     margin-bottom: 20px;
-    color: hsla(0, 0%, 100%, 0.75); /* i changed this*/
+    color: hsla(0, 0%, 100%, 0.75);
     line-height: 25px;
-    font-weight: 400; /*this remain the same*/
+    font-weight: 400; 
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+  }
+  
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+  }
+  
+  .sedans,
+  .luxury,
+  .suv {
+    padding: 3rem;
+  }
+  
+  .sedans h1,
+  .suv h1,
+  .luxury h1 {
+    color: white;
+  }
+  
+  img{
+      margin-bottom: 20px;
+  }
+  
+  header{
+      margin-bottom: 20px
+  }
+  
+  .learnmore1,
+  .learnmore2,
+  .learnmore3 {
+    border: 1px solid none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 2rem;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .learnmore1 a {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .learnmore2 a {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .learnmore3 a {
+    color: hsl(179, 100%, 13%);
+  }
+
+  .attribution {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .attribution a:hover {
+    text-decoration: none;
+  }
 }
 
-main {
-  width: 90%;
-  margin: auto;
-  margin-top: 70px;
-}
 
-.sedans {
-  background-color: hsl(31, 77%, 52%);
-  border-radius: 20px 20px 0 0;
-}
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+  }
 
-.luxury {
-  background-color: hsl(179, 100%, 13%);
-  border-radius: 0 0 20px 20px;
-}
+  .text p {
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 10px;
+  }
 
-.suv {
-  background-color: hsl(184, 100%, 22%);
-}
+    main {
+      margin: auto;
+      margin-top: 110px;
+      display: flex;  
+      height: 400px;
+      justify-content: space-between;
+      width: 70%; 
+  }
 
-.sedans,
-.luxury,
-.suv {
-  padding: 3rem;
-}
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    padding: 50px;
+  }
+  
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0  ;
+    padding: 50px;
+  }
+  
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+  }
 
-.sedans h1,
-.suv h1,
-.luxury h1 {
-  color: white;
-}
+  .sedans,
+  .luxury,
+  .suv {
+    padding: 3rem;
+  }
 
-img{
+  img{
     margin-bottom: 20px;
-}
+  }
 
-header{
-    margin-bottom: 20px
-}
+  header{
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
 
-/*i added this*/
-.learnmore1, .learnmore2, .learnmore3{
-  border: 1px solid none;
-  background-color: hsl(0, 0%, 95%);
-  border-radius: 2rem;
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  padding-top: 15px;
-  font-weight: 600; 
-}
+  }
 
-/*this too*/
-a{
-  text-decoration: none;
-}
+  .learnmore1,
+  .learnmore2,
+  .learnmore3 {
+    border: 1px solid none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 2rem;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+  }
 
-/*this too*/
-.learnmore1 a{
-  color: hsl(31, 77%, 52%);
-}
+  a {
+    text-decoration: none;
+  }
 
-/*this too*/
-.learnmore2 a{
-  color: hsl(184, 100%, 22%);
-}
+  .learnmore1 a {
+    color: hsl(31, 77%, 52%);
+  }
 
-/*this too*/
-.learnmore3 a{
-  color: hsl(179, 100%, 13%);
+  .learnmore2 a {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .learnmore3 a {
+    color: hsl(179, 100%, 13%);
+  }
+
+  .attribution {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .attribution a:hover {
+    text-decoration: none;
+  }
 }
