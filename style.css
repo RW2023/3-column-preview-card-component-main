@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.text p{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.75); /* i changed this*/
+    line-height: 25px;
+    font-weight: 400; /*this remain the same*/
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 20px 20px 0 0;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 20px 20px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.sedans,
+.luxury,
+.suv {
+  padding: 3rem;
+}
+
+.sedans h1,
+.suv h1,
+.luxury h1 {
+  color: white;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+header{
+    margin-bottom: 20px
+}
+
+/*i added this*/
+.learnmore1, .learnmore2, .learnmore3{
+  border: 1px solid none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 600; 
+}
+
+/*this too*/
+a{
+  text-decoration: none;
+}
+
+/*this too*/
+.learnmore1 a{
+  color: hsl(31, 77%, 52%);
+}
+
+/*this too*/
+.learnmore2 a{
+  color: hsl(184, 100%, 22%);
+}
+
+/*this too*/
+.learnmore3 a{
+  color: hsl(179, 100%, 13%);
+}
