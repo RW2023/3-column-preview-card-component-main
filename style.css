@@ -32,12 +32,12 @@ body {
   }
   
   .sedans {
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--bright-orange);
     border-radius: 20px 20px 0 0;
   }
   
   .luxury {
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--very-dark-cyan);
     border-radius: 0 0 20px 20px;
   }
   
@@ -83,15 +83,15 @@ body {
   }
 
   .learnmore1 a {
-    color: hsl(31, 77%, 52%);
+    color: var(--bright-orange);
   }
 
   .learnmore2 a {
-    color: hsl(184, 100%, 22%);
+    color: var(--dark-cyan);
   }
 
   .learnmore3 a {
-    color: hsl(179, 100%, 13%);
+    color: var(--very-dark-cyan);
   }
 
   .attribution {
@@ -129,19 +129,19 @@ body {
   }
 
   .sedans {
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--bright-orange);
     border-radius: 10px 0 0 10px;
     padding: 50px;
   }
   
   .luxury {
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--very-dark-cyan);
     border-radius: 0 10px 10px 0  ;
     padding: 50px;
   }
   
   .suv {
-    background-color: hsl(184, 100%, 22%);
+    background-color: var(--dark-cyan);
     padding: 50px;
   }
 
@@ -179,15 +179,15 @@ body {
   }
 
   .learnmore1 a {
-    color: hsl(31, 77%, 52%);
+    color: var(--bright-orange);
   }
 
   .learnmore2 a {
-    color: hsl(184, 100%, 22%);
+    color: var(--dark-cyan);
   }
 
   .learnmore3 a {
-    color: hsl(179, 100%, 13%);
+    color: var(--very-dark-cyan);
   }
 
   .attribution {
