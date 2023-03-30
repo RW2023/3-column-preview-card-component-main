@@ -124,7 +124,6 @@ body {
   .attribution a:hover {
     text-decoration: none;
   }
-}
 
 /* Desktop Design */
 @media screen and (max-width: 1440px) {
@@ -220,4 +219,4 @@ body {
   .attribution a:hover {
     text-decoration: none;
   }
-
+}
