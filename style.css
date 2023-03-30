@@ -1,9 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
 }
 
+/* CSS Reset */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* end of reset */
+
+/* Mobile Design */
 @media screen and (max-width: 375px) {
   h1 {
     font-family: "Big Shoulders Display", cursive;
@@ -96,7 +104,7 @@
   }
 }
 
-
+/* Desktop Design */
 @media screen and (max-width: 1440px) {
   h1 {
     font-family: "Big Shoulders Display", cursive;
