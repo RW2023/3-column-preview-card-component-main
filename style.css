@@ -170,6 +170,7 @@ body {
   .luxury,
   .suv {
     padding: 3rem;
+    text-align: center;
   }
 
   img{
