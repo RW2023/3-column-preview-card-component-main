@@ -12,7 +12,7 @@ body {
 /* end of reset */
 
 /* Mobile Design */
-@media screen and (max-width: 375px) {
+
   h1 {
     font-family: "Big Shoulders Display", cursive;
   }
@@ -26,21 +26,43 @@ body {
   }
 
   main {
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 70px;
+    text-align: center;
+    align-self: center;
   }
   
+  @media (max-width: 767.98px) {
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
   .sedans {
     background-color: var(--bright-orange);
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 0 0 20px;
   }
+
+  @media (max-width: 767.98px) {
+    .sedans {
+      background-color: var(--bright-orange);
+      border-radius: 20px 20px 0 0;
+    }
+  }
+  
   
   .luxury {
     background-color: var(--very-dark-cyan);
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 20px 20px 0;
   }
   
+  @media (max-width: 767.98px) {
+    .luxury {
+      background-color: var(--bright-orange);
+      border-radius: 0 0 20px 20px;
+    }
+  }
   .suv {
     background-color: hsl(184, 100%, 22%);
   }
@@ -48,7 +70,7 @@ body {
   .sedans,
   .luxury,
   .suv {
-    padding: 3rem;
+    padding: 2rem;
   }
   
   .sedans h1,
@@ -198,4 +220,4 @@ body {
   .attribution a:hover {
     text-decoration: none;
   }
-}
+
