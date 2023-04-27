@@ -2,6 +2,8 @@
   --bright-orange: hsl(31, 77%, 52%);
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
+  --text: hsla(0, 0%, 100%, 0.75);
+  --container: hsl(0, 0%, 95%);
 }
 
 /* CSS Reset */
@@ -21,7 +23,7 @@ h1 {
 .text p {
   font-family: "Lexend Deca", sans-serif;
   margin-bottom: 20px;
-  color: hsla(0, 0%, 100%, 0.75);
+  color: var(--text);
   line-height: 25px;
   font-weight: 400;
 }
@@ -67,7 +69,7 @@ main {
 }
 
 .suv {
-  background-color: hsl(184, 100%, 22%);
+  background-color: var(--dark-cyan);
 }
 
 .sedans,
@@ -79,7 +81,7 @@ main {
 .sedans h1,
 .suv h1,
 .luxury h1 {
-  color: white;
+  color: var(--text);
 }
 
 img {
@@ -94,7 +96,7 @@ header {
 .learnmore2,
 .learnmore3 {
   border: 1px solid none;
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--container);
   border-radius: 2rem;
   height: 50px;
   width: 150px;
@@ -222,5 +224,7 @@ a {
 
   .attribution a:hover {
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
